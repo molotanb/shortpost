@@ -13,5 +13,3 @@ if( !function_exists('Class_loader') ) {
     }
     spl_autoload_register("Class_loader");
 };
-WP_Latest_Posts::init();
-    WP_Latest_Posts_Settings::init();
